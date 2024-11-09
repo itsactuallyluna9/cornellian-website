@@ -1,7 +1,11 @@
 ---
+import { execSync } from 'child_process';
 const today = new Date();
+const commit = execSync('git log -1 --pretty=format:"%s (%h)"', { encoding: 'utf-8' }).trim();
 ---
 
 <footer class="text-center py-8 px-4 text-base-300 bg-gradient-to-b from-base-50">
 	&copy; {today.getFullYear()} The Cornellian. All rights reserved.
+	<br>
+	Latest Commit: {commit} | Built At: {today.toLocaleString()}
 </footer>
