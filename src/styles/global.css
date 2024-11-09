@@ -11,7 +11,7 @@
 }
 
 body {
-	@apply text-xl leading-relaxed break-words;
+	@apply text-xl leading-relaxed break-words bg-base-paper text-base-black;
 }
 
 main {
