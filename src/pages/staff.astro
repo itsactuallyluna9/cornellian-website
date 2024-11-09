@@ -1,0 +1,42 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+        <main>
+            <h1 class="text-center text-4xl font-bold">The Cornellian Staff</h1>
+            <h2 class="text-center text-2xl font-semibold">Executive Board</h2>
+            <h3 class="text-center text-xl">Editors-in-Chief</h3>
+            <p>Murray Page</p>
+            <p>James Belding</p>
+
+            <h3 class="text-center text-xl">Business Manager</h3>
+            <p>Eliza Carlson</p>
+
+            <h2 class="text-center text-2xl font-semibold">Comic / Photographers</h2>
+            <p>Morgan Dalsing</p>
+            <p>Teresa Mejia</p>
+
+            <h2 class="text-center text-2xl font-semibold">Staff Writers</h2>
+            <p>Ren Solis-Roman</p>
+            <p>Rhye Nelson</p>
+            <p>Jack Gross</p>
+            <p>Nella Sadirova</p>
+            <p>Clara Biela</p>
+            <p>Adelaide Ries</p>
+
+            <h2 class="text-center text-2xl font-semibold">Website</h2>
+            <p>Luna</p>
+        </main>
+        <Footer />
+    </body>
+</html>
