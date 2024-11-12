@@ -41,12 +41,12 @@ const posts = (await getCollection('articles')).sort(
 		<Header />
 		<main>
 			<section>
-				<ul class="flex flex-wrap gap-8 list-none m-0 p-0 align-middle items-center justify-center">
+				<ul class="flex flex-wrap gap-8 list-none m-0 p-0 align-middle justify-center">
 					{
 						posts.map((post) => (
 							<li class="no-underline md:first:w-full md:first:mb-4 md:first:text-center md:w-80 w-5/12">
 								<a href={`/articles/${post.slug}/`} class="block">
-									<Picture width={720} height={360} src={post.data.heroImage || PlaceholderImage} alt="" class="transition rounded-xl mb-2 aspect-video dark:brightness-90 hover:brightness-100" />
+									<Picture width={688} height={387} src={post.data.heroImage || PlaceholderImage} alt="" class="transition rounded-xl mb-2 aspect-video dark:brightness-90 hover:brightness-100" />
 									<h4 class="text-lg sm:text-xl">{post.data.title}</h4>
 									<p class="text-sm sm:text-base">
 										{post.data.author}

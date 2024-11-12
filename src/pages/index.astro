@@ -3,19 +3,47 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { Image } from 'astro:assets';
+import { Image, Picture } from 'astro:assets';
+
+import PlaceholderImage from "../images/article-placeholder.png";
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('articles')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const latest_post = posts[0];
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.latest-article:hover img {
+				@apply brightness-100;
+			}
+			.latest-article:hover div div {
+				@apply backdrop-blur-xl;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<h1>The Cornellian</h1>
 			<Image src="https://placehold.co/600x400?text=Logo+Placeholder" alt="The Cornellian Logo" inferSize={true} class="dark:invert" />
+			<h2>Latest Article</h2>
+			<a href={`/articles/${latest_post.slug}/`} class="relative inline-block latest-article">
+				<Picture width={688} height={387} src={latest_post.data.heroImage || PlaceholderImage} alt="" class="w-full h-auto transition rounded-xl mb-2 aspect-video dark:brightness-90" loading="eager" />
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="text-center backdrop-blur-sm transition bg-base-paper/30 dark:bg-base-950/30 p-4 rounded-xl">
+						<h3 class="text-2xl">{latest_post.data.title}</h3>
+						<p class="text-base">{latest_post.data.author}</p>
+					</div>
+				</div>
+			</a>
+			<h2>About Us</h2>
 			<p>do this later ~luna</p>
 		</main>
 		<Footer />
