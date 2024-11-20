@@ -7,6 +7,7 @@ import { Image, Picture } from 'astro:assets';
 
 import PlaceholderImage from "../images/article-placeholder.png";
 import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
 
 const posts = (await getCollection('articles')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -21,7 +22,7 @@ const latest_post = posts[0];
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			.latest-article:hover img {
-				@apply brightness-100;
+				@apply brightness-100 shadow-2xl;
 			}
 			.latest-article:hover div div {
 				@apply backdrop-blur-xl;
@@ -31,20 +32,29 @@ const latest_post = posts[0];
 	<body>
 		<Header />
 		<main>
-			<h1>The Cornellian</h1>
-			<Image src="https://placehold.co/600x400?text=Logo+Placeholder" alt="The Cornellian Logo" inferSize={true} class="dark:invert" />
-			<h2>Latest Article</h2>
+			<!-- center -->
+			<div class="grid justify-center pb-16">
+				<h1 class="hidden">The Cornellian</h1>
+				<Image src="https://placehold.co/600x200?text=The+Cornellian+(logo+placehoder)" alt="The Cornellian Logo" inferSize={true} class="dark:invert" />
+				<h2 class="text-2xl font-semibold italic text-center">Truth Without Fear. Since the 1800s.</h2>
+			</div>
+			<h2 class="text-2xl font-semibold text-center">Latest Article</h2>
 			<a href={`/articles/${latest_post.slug}/`} class="relative inline-block latest-article">
 				<Picture width={688} height={387} src={latest_post.data.heroImage || PlaceholderImage} alt="" class="w-full h-auto transition rounded-xl mb-2 aspect-video dark:brightness-90" loading="eager" />
 				<div class="absolute inset-0 flex items-center justify-center">
 					<div class="text-center backdrop-blur-sm transition bg-base-paper/30 dark:bg-base-950/30 p-4 rounded-xl">
 						<h3 class="text-2xl">{latest_post.data.title}</h3>
 						<p class="text-base">{latest_post.data.author}</p>
+						<p class="text-base">
+							<FormattedDate date={latest_post.data.pubDate} />
+						</p>
 					</div>
 				</div>
 			</a>
-			<h2>About Us</h2>
+			<h2 class="text-2xl font-semibold text-center">About Us</h2>
 			<p>do this later ~luna</p>
+			<h2 class="text-2xl font-semibold text-center">Meeting Times</h2>
+			<p>We meet every Wednesday at 7:00pm in the MLK Room in TC.</p>
 		</main>
 		<Footer />
 	</body>
