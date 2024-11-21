@@ -1,0 +1,58 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+import { Picture } from 'astro:assets';
+import PlaceholderImage from "../../images/article-placeholder.png";
+
+const comics = (await getCollection('comics')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			ul li:first-child img {
+				@apply w-full;
+			}
+			ul li:first-child h4 {
+				@apply md:text-4xl;
+			}
+			ul a:hover img {
+				@apply shadow-2xl;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section>
+				<ul class="flex flex-wrap gap-8 list-none m-0 p-0 align-middle justify-center">
+					{
+						comics.map((comic) => (
+							<li class="no-underline md:first:w-full md:first:mb-4 md:first:text-center md:w-80 w-5/12">
+								<a href={`/articles/${comic.slug}/`} class="block">
+									{/* <Picture width={688} height={387} src={comic.data.heroImage || PlaceholderImage} alt="" class="transition rounded-xl mb-2 aspect-video dark:brightness-90 hover:brightness-100" /> */}
+									<h4 class="text-lg sm:text-xl">{comic.data.title}</h4>
+									<p class="text-sm sm:text-base">
+										{comic.data.author}
+									</p>
+									<p class="text-sm sm:text-base">
+										<FormattedDate date={comic.data.pubDate} />
+									</p>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

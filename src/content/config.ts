@@ -15,4 +15,14 @@ const articles = defineCollection({
 	}),
 });
 
-export const collections = { articles };
+const comics = defineCollection({
+	type: 'content',
+	schema: ({ image }) => z.object({
+		title: z.string(),
+		author: z.string(),
+		description: z.string().default('No description!'),
+		pubDate: z.coerce.date(),
+	}),
+});
+
+export const collections = { articles, comics };
