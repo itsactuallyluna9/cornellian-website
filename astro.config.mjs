@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 import tailwind from '@astrojs/tailwind';
 import { remarkReadingTime } from './remark-reading-time.mjs';
+import { remarkImageCaptions } from './remark-image-captions.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
                 light: "catppuccin-latte",
             }
         },
-        remarkPlugins: [remarkReadingTime]
+        remarkPlugins: [remarkReadingTime, remarkImageCaptions]
     },
     integrations: [mdx(), sitemap(), tailwind()],
 });
