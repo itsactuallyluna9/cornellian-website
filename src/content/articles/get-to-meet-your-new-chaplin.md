@@ -3,19 +3,20 @@ title: "Get to Meet Your New Chaplin"
 author: "Logan Wells"
 pubDate: "Dec 8 2021"
 ---
-The Cornell community welcomed a new member, lifelong Iowan Rev. Melea White, to the hilltop this year. I sat down with her to discuss why she chose Cornell, what she hopes to do here, and how she can connect with all students regardless of their background. 
+
+The Cornell community welcomed a new member, lifelong Iowan Rev. Melea White, to the hilltop this year. I sat down with her to discuss why she chose Cornell, what she hopes to do here, and how she can connect with all students regardless of their background.
 
 **Q: Being a Chaplain of a college certainly has to be a unique position: what led you to choose this over a more traditional church position.**
 
-A: Many of us go into career fields that we have a personal connection to. I was really questioning myself and my beliefs in college. I didn’t know how to make sense of my religious beliefs and my new understanding of the world. I was trying to deal with finding the meaning of life and my purpose. 
+A: Many of us go into career fields that we have a personal connection to. I was really questioning myself and my beliefs in college. I didn’t know how to make sense of my religious beliefs and my new understanding of the world. I was trying to deal with finding the meaning of life and my purpose.
 
 So I find that I am drawn towards working with college students who are trying to answer all of these same questions, regardless of their religious or spiritual background. College is a great stage of life to be in and work with in terms of the big questions students are asking and self discovery / identity development they’re doing
 
-**Q: ****What do you want to do at Cornell?**
+**Q: \*\***What do you want to do at Cornell?\*\*
 
-A: I am very excited to think about where things might go from here. This first year I imagine I will just be getting a sense of what the community needs for spiritual care. 
+A: I am very excited to think about where things might go from here. This first year I imagine I will just be getting a sense of what the community needs for spiritual care.
 
-This is a time when a lot of students’ worldviews are evolving; it is my hope that I can accompany students during a time when students are trying to understand and explore life a bit more deeply. 
+This is a time when a lot of students’ worldviews are evolving; it is my hope that I can accompany students during a time when students are trying to understand and explore life a bit more deeply.
 
 **Q: What about students that are not very religious? **
 
@@ -23,7 +24,7 @@ A: I want people to know that I am a resource. I can help with the big life ques
 
 **Q: What Programs are you currently running? **
 
-A: Some will be ongoing with new events every block. 
+A: Some will be ongoing with new events every block.
 
 Ongoing:
 
@@ -45,9 +46,9 @@ What is it: An opportunity to pause and breathe as we enter finals week.
 
 When / Where is it: Fourth Monday of the block at 3:15pm in Allee Chapel or the chapel lawn, weather permitting.
 
- 
 
- 
+
+
 
 **Chat with the Chaplain**
 
@@ -55,7 +56,7 @@ What is it: An opportunity to chat (with the chaplain) about whatever you want! 
 
 When / Where is it: Thursdays over lunch in the Thomas Commons.
 
-**Q: ****Your Favorite Movie?**
+**Q: \*\***Your Favorite Movie?\*\*
 
 A: I don’t think I can pick one but my favorite genre is Comedy
 
@@ -71,7 +72,7 @@ A: A red Geo Storm
 
 A: A local sporting goods store in Cedar Rapids called Eby’s
 
-**Q: ****Your Favorite Hobbies? **
+**Q: \*\***Your Favorite Hobbies? \*\*
 
 A: Time in nature, running, reading and writing, time with family
 

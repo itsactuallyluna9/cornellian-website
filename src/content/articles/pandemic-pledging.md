@@ -3,6 +3,7 @@ title: "Pandemic Pledging"
 author: "Madeleine Koenigsberg"
 pubDate: "Dec 16 2020"
 ---
+
 With Cornell’s adaption to COVID-19 policies, a lot of student organizations have been impacted. One important aspect of student-led activities is Greek Life. Of the many sororities and fraternities on campus, a lot of them have been doing online events through Zoom.
 
 But as the semester winds down, some thoughts have turned to pledging for the upcoming year.
@@ -16,5 +17,3 @@ Another advantage of the shift in timeline is the weather. Lennon said, “It ma
 Even with the protocols, safety is the priority of the decisions for pledging. “We have yet to coordinate further guidelines for pledging events, such as the lip sync event. Plans for pledging will follow the College’s guidance on safety measures and policies in relation to COVID-19.”
 
 Though campus life seems a bit dull without the constant events and parties that a lot of Greek life throws, they will hopefully resume once the pandemic has quieted down. Until then, feel free to explore and make connections with all of Greek Life.
-
-

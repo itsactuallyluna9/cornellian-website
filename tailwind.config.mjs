@@ -57,6 +57,8 @@ export default {
       typography: ({ theme }) => ({
         paper: {
           css: {
+            "blockquote p:first-of-type::before": { content: "none" },
+            "blockquote p:first-of-type::after": { content: "none" },
             "--tw-prose-body": theme("colors.base.black"),
             "--tw-prose-headings": theme("colors.base.black"),
             "--tw-prose-lead": theme("colors.blue.DEFAULT"),

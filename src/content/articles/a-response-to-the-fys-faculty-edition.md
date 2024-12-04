@@ -3,7 +3,8 @@ title: "A Response to the FYS: Faculty Edition"
 author: "Angel Fabila and Abigail Schroeder"
 pubDate: "Dec 23 2020"
 ---
-After the release of our second podcast episode, “Students Talk About Their FYS Experience,” we invited a few members of our faculty to talk about their experiences teaching the new First Year Seminar (FYS) and their reactions toward the podcast. 
+
+After the release of our second podcast episode, “Students Talk About Their FYS Experience,” we invited a few members of our faculty to talk about their experiences teaching the new First Year Seminar (FYS) and their reactions toward the podcast.
 
 Faculty Members: Professors Erin Davis, Megan Goldberg, Chris Hoklottube, Kate Kauper, Leon Tabak, Craig Teague
 
@@ -11,7 +12,7 @@ While some students look at their FYS experience fondly, others have critiqued i
 
 Prof. Erin Davis explained that while the content taught in the FYS is certainly important, learning the content is not the main goal of the class. Rather, the goal is to teach students how to learn and to encourage becoming life-long learners. She believes that professors are experts on learning, and this is the most important thing that they impart on first-year students.
 
-The FYS is central to Cornell’s new core curriculum, Ingenuity in Action. While this curriculum has only just been introduced, Prof. Craig Teague described how it has been developed for the past three years, worked on by a vast group of faculty and administration alike. He explained how Ingenuity is meant to be woven throughout the entire Cornell curriculum and continue all the way up until graduation. 
+The FYS is central to Cornell’s new core curriculum, Ingenuity in Action. While this curriculum has only just been introduced, Prof. Craig Teague described how it has been developed for the past three years, worked on by a vast group of faculty and administration alike. He explained how Ingenuity is meant to be woven throughout the entire Cornell curriculum and continue all the way up until graduation.
 
 Ingenuity is meant to help further the liberal arts at Cornell. This interwoven curriculum is meant to help tie the disciplines together, rather than viewing them as wholly separate programs. In this way, students are introduced to a wide variety of subjects without veering too far from their major.
 
@@ -29,11 +30,10 @@ As for changes, the faculty plans on relying on the data they got from evaluatio
 
 Currently, what has been said in the Cornellian’s second podcast, some of it does not match the data they have. “Is it a narrative problem? Is it a data problem? It’s probably some of both,” said Teague.
 
-Prof. Teague suggested that in the future, faculty need to be more explicit about why they are teaching the course–it’s not all about the content. Rather, it’s how they want students to think. He is confident that faculty can continue to emphasize that theme based on what he saw in the first three iterations of the new, collective FYS. 
+Prof. Teague suggested that in the future, faculty need to be more explicit about why they are teaching the course–it’s not all about the content. Rather, it’s how they want students to think. He is confident that faculty can continue to emphasize that theme based on what he saw in the first three iterations of the new, collective FYS.
 
-As for grading, there is still some difference of opinion among faculty members, but Prof. Leon Tabak hopes to make a case that the FYS should not be a course that is there to solely toughen up students and expose them to the block system at Cornell, but instead give a positive experience. He hopes to have more conversations with his colleagues about this. 
+As for grading, there is still some difference of opinion among faculty members, but Prof. Leon Tabak hopes to make a case that the FYS should not be a course that is there to solely toughen up students and expose them to the block system at Cornell, but instead give a positive experience. He hopes to have more conversations with his colleagues about this.
 
 It’s not obvious, but there have been significant differences in grading, how the course was taught, and the content of the FYS from two years ago and this year. Prof. Hoklottube has taught the course twice. During his first year teaching the course, there were instances when he looked at the lesson plan and said, “Not today, Satan.” Some faculty observed how disheartening the course was, which is why they are discussing changes.
 
-As conversations about the collective FYS arise, faculty are willing to listen to what students have to say. Hopefully, the college is able to develop a curriculum where first-year students are able to get a feel of what a liberal arts education is like, and learn how to be successful in 18 days. 
-
+As conversations about the collective FYS arise, faculty are willing to listen to what students have to say. Hopefully, the college is able to develop a curriculum where first-year students are able to get a feel of what a liberal arts education is like, and learn how to be successful in 18 days.

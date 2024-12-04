@@ -3,6 +3,7 @@ title: "Being a First-Year Student During a Pandemic"
 author: "Safiyat Aminu"
 pubDate: "April 1 2021" # not april fools, just unfortunate timing
 ---
+
 COVID-19 has been rough for everyone and has drastically changed everyone’s lives whether you are a school-aged child whose school was moved to be fully online, a working adult who was laid off or forced to move to work-from-home, or a retired elder who was are at high risks of losing their life due to the virus. It has drastically affected everyone’s daily life.
 
 I and many other freshmen were affected by COVID-19 in many different ways but we all shared the same collective experience of our first time in college. Our very first experience in college is very much different than in previous years before us.
