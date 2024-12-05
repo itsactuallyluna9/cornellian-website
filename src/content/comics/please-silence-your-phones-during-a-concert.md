@@ -1,6 +1,6 @@
 ---
 title: Please Silence Your Phones During a Concert!
 author: Morgan Dalsing
-pubDate: Dec 10, 2025
+pubDate: Nov 26, 2023
 ---
 ![alt text](../../images/comics/concert-phones.png)

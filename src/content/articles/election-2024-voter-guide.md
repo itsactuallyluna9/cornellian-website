@@ -22,7 +22,7 @@ The third party candidates for President include **Chase Oliver** with the Liber
 
 **Jody Madlom Puffett** is an independent candidate for US House of Representatives. Puffett is 59 and a retired CFO from a financial company offering services for retirement and health insurance. She believes that taxes should be prioritized towards education and that immigration access should be completely stopped until the legal process is redeveloped. Puffett supports background checks and training for new and previous gun owners. She does not support a nationwide abortion ban but only believes in abortions in cases of incest, rape, or life of the mother.
 
-**Iowa Senate**
+## Iowa Senate
 
 **Charlie McClintock** is running unopposed as a Republican candidate for Iowa Senate. McClintock is the incumbent and the 911 manager for the Cedar Rapids Police department as well as a former warrant officer for the Iowa National Guard. He currently serves on the committees of Agriculture, State Government, Veterans Affairs, Workforce and Justice System Appropriations and claims to be most passionate about education, public safety and fiscal responsibility. McClintock previously voted against reducing funding for agencies that provide services to community schools and supports a six week abortion ban.
 
