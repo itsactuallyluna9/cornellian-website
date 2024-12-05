@@ -1,0 +1,44 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+const comics = (await getCollection('comics')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section>
+				<h1 class="text-center text-4xl font-bold mb-4">Comic Archive</h1>
+				<ul class="flex flex-wrap list-none m-0 p-0 align-middle justify-center">
+					{
+						comics.map((comic) => (
+							<li class="">
+								<a href={`/comics/${comic.slug}/`} class="flex gap-2">
+									{/* Title [dot] Author */}
+									<h2>{comic.data.title}</h2>
+									<span>&middot;</span>
+									<h3>{comic.data.author}</h3>
+									{/* Date */}
+									{/* <FormattedDate date={comic.data.pubDate} /> */}
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

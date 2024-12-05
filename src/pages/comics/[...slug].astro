@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
-import Article from '../../layouts/ArticleLayout.astro';
+import Comic from '../../layouts/ComicLayout.astro';
 
 export async function getStaticPaths() {
 	const comics = await getCollection('comics');
@@ -15,6 +15,6 @@ const comic = Astro.props;
 const { Content } = await comic.render();
 ---
 
-<Article {...comic.data} minutesRead={"a"}>
+<Comic {...comic.data}>
 	<Content />
-</Article>
+</Comic>

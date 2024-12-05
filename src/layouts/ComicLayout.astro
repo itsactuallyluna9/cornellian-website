@@ -1,0 +1,65 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'comics'>['data'];
+
+const { title, author, description, pubDate } = Astro.props;
+
+const comics = (await getCollection('comics')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+) // sort by date in descending order (newest first)
+
+const index = comics.findIndex((comic) => comic.slug === Astro.params.slug);
+
+const earliest = comics[comics.length - 1];
+const prev = comics[index + 1];
+const next = comics[index - 1];
+const latest = comics[0];
+
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<main>
+            <div class="text-center items-center p-4 bg-[#fff] border-purple dark:border-purple-light border-2 rounded-2xl">
+                <div class="mb-8">
+                    <h1 class="text-2xl sm:text-3xl text-base-black">{title}</h1>
+                    <h2 class="text-lg sm:text-2xl text-base-black">{author}</h2>
+                    <div class="text-base sm:text-lg text-base-600">
+                        <FormattedDate date={pubDate} />
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <slot />
+                </div>
+                <!-- buttons -->
+                <div class="flex justify-center space-x-4">
+                    <!-- TODO: add start / end button -->
+                    { prev && (
+                        <a href={`/comics/${earliest.slug}`} id="comics-prev" class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition">&lt;&lt;</a>
+                        <a href={`/comics/${prev.slug}`} id="comics-prev" class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition">&lt; Previous</a>
+                    )}
+                    { next && (
+                        <a href={`/comics/${next.slug}`} id="comics-next" class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition">Next &gt;</a>
+                        <a href={`/comics/${latest.slug}`} id="comics-next" class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition">&gt;&gt;</a>
+                    )}
+                </div>
+            </div>
+            <!-- MORE BUTTONS -->
+            <div class="flex justify-center space-x-4 mt-8">
+                <a href="/comics/archive" class="bg-purple-light rounded px-2 text-base-paper">Archive</a>
+                <a href="/comics/rss.xml" class="bg-purple-light rounded px-2 text-base-paper">RSS</a>
+            </div>
+		</main>
+		<Footer />
+	</body>
+</html>
