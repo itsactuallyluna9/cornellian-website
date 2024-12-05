@@ -1,0 +1,9 @@
+---
+title: Review of Homecoming Pep Rally and Games
+author: Murray Page
+pubDate: Nov 26 2023
+---
+
+The pep rally began with the spirit squads excellent routine which was a mixture of the dance team and cheerleaders that performed dances and stunts. There was then a raffle drawing sponsored by SAAC for students who had submitted tickets throughout the week with multiple prizes including a gift store bundle with a $120 value, a bluetooth speaker, and a 50 dollar Amazon gift card. After announcing the homecoming royalty which were the well deserving Izzy Schmidt and Ben Bach, Izzy ended her speech with “let’s go ram ‘em tomorrow,” and then they announced that the drone show would begin in ten minutes. The drone show consisted of over ten images including many about football, and I wish we could have seen some images about other sports too. Other images include the Cornell Crest, a C, “Go Rams,” and the long awaited ram. Despite the few missing drones, overall the show was very impressive, and exceeded my expectations.
+
+There were many sports that took place on Sunday, and with that came a lot of tailgaters in the parking lot before the football game. The volleyball game was first and it was very well played, with Cornell beating Ripon in three quick and easy sets. The football game happened next which had a large number of current and former students braving the cold. The game went well for Cornell and was fun to watch despite the lack of a designated student section to cheer on the team. The soccer game began at 3:00 and was the most exciting game of the day. They took on Carleton which is a highly ranked division three college, and were down two to zero at half but ended up losing two to one with a very impressive save on a penalty kick by Cornell goalkeeper Jeremy Spina. Overall the day was very fun and exciting and I hope everyone had an opportunity to experience at least some part of it.
