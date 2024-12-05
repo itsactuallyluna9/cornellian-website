@@ -7,6 +7,6 @@ const comics = (await getCollection('comics')).sort(
 
 const latestComic = comics[0];
 
-return Astro.redirect(`/comics/${latestComic.slug}`);
+return Astro.rewrite(`/comics/${latestComic.slug}`);
 ---
 <!-- So, uh, nice weather today? -->
