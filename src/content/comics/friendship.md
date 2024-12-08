@@ -1,7 +1,7 @@
 ---
 title: Friendship!!
 author: Morgan Dalsing
-pubDate: March 27 2024
+pubDate: March 23 2024
 ---
 
 ![alt text](../../images/comics/friendship/panel1.png)

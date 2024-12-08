@@ -1,0 +1,14 @@
+---
+title: "Zamora's: Worth the Flex Cash?"
+author: Lilly Peery
+pubDate: March 31 2022
+---
+Stories told of Zamora’s past recount tales of consistent hours, store availability open past 5 pm, and a host of delicious snacks. However, in my pandemic-riddled two-and-a-half-years at Cornell, I have only known Zamora’s as closed when I need it, and constantly out of oat milk.
+
+When my college search ended amidst corn fields and Menards warehouses, I took comfort in the knowledge that my culture shock would be cushioned with the promise of Cornell College’s excellent dining services. However, these promises were intercepted by a pandemic-shaped blow, and bulk pre-made meals accompanied by a multitude of to-go containers left me unsatisfied and in search of another food source.
+
+My search for food variety on campus last year led me to Zamora’s Market, but my subsequent plans to consume a strictly Zamora’s-based-diet shared a similar, disappointing fate. COVID-19 policies had modified the format of every on-campus food vendor during the 2020-2021 school year. Students experienced shorter Zamora’s Market hours, (according to an anonymous source they used to be open until 12 am, weekly) in addition to many menu changes. For much of the 2020-2021 school year, and even the 2021 fall semester, Zamora’s felt inaccessible when it was needed, leaving me to wonder if it was worth the extra flex cash dollars. What’s the point of a separate restaurant when it’s always closed and doesn’t much resemble a restaurant anymore?
+
+However, it appears that the tables may have turned in favor of hungry Cornell students everywhere: Zamora’s market has returned to their original food menu and is now open every weekday from 7:30 am until 5:00 pm. We can all rest easy knowing that there are hot chicken tenders waiting for us in Zamora’s if the ‘Bon feels unbearable that day. Their extensive coffee menu is a welcome rescue brew for weary block-plan goers, and their delicious baked goods will (momentarily) wash away third-week-blues. The oat milk enthusiasts among us are still out of luck in that department, but friendly staff will make you a wonderful almond milk chai!
+
+The old menu’s revival and implementation of consistent hours is a step in the right direction, however it would be great to see more variety in hours in the future. Another anonymous Bon Appetit source stated that the catering company has experienced a staffing loss by almost 50% in the last two years, attributing this shortage to the many food-related complaints they have received. Perhaps if the college spent as many resources on their dining services as they do on their sports centers, the student-body voice would be a requiem of satisfied students, rather than hungry ones. Additionally, extended hours to match the busy pace of both campus and one’s personal life would be the cherry on top in the movement towards re-establishing Cornell’s reputable dining services.
