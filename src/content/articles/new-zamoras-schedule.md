@@ -1,0 +1,6 @@
+---
+title: New Zamora's Schedule
+author: Faith Lloyd
+pubDate: April 1 2024
+---
+Over spring break, Zamora’s staff have developed a new and revolutionary schedule. After years of receiving feedback from students about how the store is always closed when people want to go there, Zamora’s has decided to overhaul their hours completely. Zamora’s has decided to maximize student frustration by not being open at the same time as Bon Appétit. Students who opted for Flex Bucks for their meal plan now have the opportunity to eat hamburgers that are either tough as a hockey puck or unintentionally medium-rare instead of a tasty Ram Wrap. Additionally, Zamora’s will strive to only be open when classes are in session. This is intended to be a test of character to see if students will prioritize classes or eating. Lastly, Zamora’s has promised to keep its hours “consistently inconsistent.” Since too many students have trouble reading the sign that clearly states when hours Zamora’s is open, the sign will be done away with. Instead, students will now have to read the phase of the moon, multiply that by the current zodiac sign, divide that by the number of ripples in Ink Pond, and carry the block term to find out which days Zamora’s will be open.
