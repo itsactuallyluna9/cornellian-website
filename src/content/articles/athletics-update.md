@@ -1,7 +1,7 @@
 ---
 title: Athletics Update
 author: Clara Biela
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 ## Rams Fall Athletics Roundup

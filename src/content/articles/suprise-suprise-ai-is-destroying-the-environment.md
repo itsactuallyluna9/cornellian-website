@@ -1,7 +1,7 @@
 ---
 title: "Suprise Suprise: AI is Destroying the Environment"
 author: Rhye Nelson
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 As the presence of generative artificial intelligence (AI) seems to invade most online spaces, both ethical and environmental concerns have been raised. Despite the benefits that may be present in the increasing prominence of AI, studies on the environmental impacts of AI generation cause increasing worries due to the lack of legislation or regulations attributed to the learning and development of AI tools.

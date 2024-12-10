@@ -1,7 +1,7 @@
 ---
 title: The Royal Purple Yearbook Returns
 author: Eliza Carlson
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 For the first time since 2014, the Royal Purple yearbook will return to Cornell at the end of this academic year! Students, faculty and staff participated in picture days at Zamora’s Lounge on Dec. 5th and 6th to get their headshots taken for the 2024 yearbook. The return of the Royal Purple is thanks to a hardworking group of students - co-founders Nick Schwartz ‘25 (Student Body President) and Veronica Schuchart ‘26 (Chair of Academic Affairs), Cameron Bennington ‘26 (President of Cornell’s Historical and Archeology Society, chief editor for the Royal Purple), and Oriana McKanan ‘26 (junior class editor for the Royal Purple) - who collaborated to bring the yearbook back after its ten-year absence.
 

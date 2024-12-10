@@ -1,7 +1,7 @@
 ---
 title: What's Happening in Lebanon
 author: Nella Sadirova
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 ## What is Lebanon?

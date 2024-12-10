@@ -1,7 +1,7 @@
 ---
 title: Guide to Setting Goals for the Upcoming Year
 author: Ren Solis-Roman
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 “New Year, New Me.” We hear it every year. At some point every person has fallen into the traps of wanting to start all new healthy habits at the same time. Motivation comes strong, but definitely wears off fast. Collectively, it can be really difficult to even choose what goals to focus on. For the new year to come, here are some ideas and tips to help people keep up with their goals.

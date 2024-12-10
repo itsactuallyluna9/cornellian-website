@@ -1,7 +1,7 @@
 ---
 title: "Opinion: To My Puerto Rican People..."
 author: Maria Alejandra Seda Morales
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 > The opinions expressed in this article are the author's own and do not reflect the view of the Cornellian or of Cornell College.

@@ -1,7 +1,7 @@
 ---
 title: Upcoming Christmas Jazz and Pop/Contemporary Concert
 author: Murray Page and Eliza Carlson
-pubDate: Dec 11, 2024
+pubDate: Dec 10, 2024
 ---
 
 After the success of their first concert together on Oct. 13th, the Cornell College Jazz and Pop/Contemporary Ensembles are eagerly anticipating their next opportunity to perform.
