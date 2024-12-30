@@ -25,7 +25,7 @@ const comics = (await getCollection('comics')).sort(
 					{
 						comics.map((comic) => (
 							<li class="">
-								<a href={`/comics/${comic.slug}/`} class="flex gap-2">
+								<a href={`/comics/${comic.id}/`} class="flex gap-2">
 									{/* Title [dot] Author */}
 									<h2>{comic.data.title}</h2>
 									<span>&middot;</span>

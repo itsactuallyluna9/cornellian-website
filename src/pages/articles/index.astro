@@ -45,7 +45,7 @@ const posts = (await getCollection('articles')).sort(
 					{
 						posts.map((post) => (
 							<li class="no-underline md:first:w-full md:first:mb-4 md:first:text-center md:w-80 w-5/12">
-								<a href={`/articles/${post.slug}/`} class="block">
+								<a href={`/articles/${post.id}/`} class="block">
 									<Picture width={688} height={387} src={post.data.heroImage || PlaceholderImage} alt="" class="transition rounded-xl mb-2 aspect-video dark:brightness-90 hover:brightness-100" />
 									<h4 class="text-lg sm:text-xl">{post.data.title}</h4>
 									<p class="text-sm sm:text-base">

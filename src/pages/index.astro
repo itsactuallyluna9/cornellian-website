@@ -40,7 +40,7 @@ const latest_post = posts[0];
 				<h2 class="text-2xl font-semibold italic text-center">Truth Without Fear. Since the 1800s.</h2>
 			</div>
 			<h2 class="text-2xl font-semibold text-center">Latest Article</h2>
-			<a href={`/articles/${latest_post.slug}/`} class="relative inline-block latest-article">
+			<a href={`/articles/${latest_post.id}/`} class="relative inline-block latest-article">
 				<Picture width={688} height={387} src={latest_post.data.heroImage || PlaceholderImage} alt="" class="w-full h-auto transition rounded-xl mb-2 aspect-video dark:brightness-90" loading="eager" />
 				<div class="absolute inset-0 flex items-center justify-center">
 					<div class="text-center backdrop-blur-sm transition bg-base-paper/30 dark:bg-base-950/30 p-4 rounded-xl">

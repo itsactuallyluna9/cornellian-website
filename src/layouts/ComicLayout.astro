@@ -13,7 +13,7 @@ const comics = (await getCollection('comics')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 ) // sort by date in descending order (newest first)
 
-const index = comics.findIndex((comic) => comic.slug === Astro.params.slug);
+const index = comics.findIndex((comic) => comic.id === Astro.params.id);
 
 const earliest = comics[comics.length - 1];
 const prev = comics[index + 1];
@@ -45,12 +45,12 @@ const latest = comics[0];
                 <div class="flex justify-center space-x-4">
                     <!-- TODO: add start / end button -->
                     { prev && (
-                        <a href={`/comics/${earliest.slug}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="First Comic">&lt;&lt;</a>
-                        <a href={`/comics/${prev.slug}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Previous Comic">&lt; Previous</a>
+                        <a href={`/comics/${earliest.id}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="First Comic">&lt;&lt;</a>
+                        <a href={`/comics/${prev.id}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Previous Comic">&lt; Previous</a>
                     )}
                     { next && (
-                        <a href={`/comics/${next.slug}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Next Comic">Next &gt;</a>
-                        <a href={`/comics/${latest.slug}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Latest Comic">&gt;&gt;</a>
+                        <a href={`/comics/${next.id}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Next Comic">Next &gt;</a>
+                        <a href={`/comics/${latest.id}`} class="bg-purple-light rounded px-2 hover:text-base-paper text-base-50 transition" aria-label="Latest Comic">&gt;&gt;</a>
                     )}
                 </div>
             </div>

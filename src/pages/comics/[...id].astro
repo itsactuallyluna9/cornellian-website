@@ -1,18 +1,18 @@
 ---
-import { type CollectionEntry, getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection, render } from 'astro:content';
 import Comic from '../../layouts/ComicLayout.astro';
 
 export async function getStaticPaths() {
 	const comics = await getCollection('comics');
 	return comics.map((post) => ({
-		params: { slug: post.slug },
+		params: { id: post.id },
 		props: post,
 	}));
 }
 type Props = CollectionEntry<'comics'>;
 
 const comic = Astro.props;
-const { Content } = await comic.render();
+const { Content } = await render(comic);
 ---
 
 <Comic {...comic.data}>
