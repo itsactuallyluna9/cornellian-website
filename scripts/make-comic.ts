@@ -10,7 +10,7 @@ async function getMostRecentPubDate() {
     // articles are in src/articles/**/*.md
     
     // get all the articles
-    const articles = await glob("../src/content/comics/**/*.md");
+    const articles = await glob("src/content/comics/**/*.md");
     // now, we need to parse pubDate from the frontmatter yaml
     // in all articles. fun, yeah?
     const dates = await Promise.all(articles.map(async (article) => {
@@ -54,11 +54,11 @@ const metadata = {
 	pubDate: await input({ message: "Publication Date", default: await getMostRecentPubDate(), validate: validateDate})
 }
 
-metadata.title = titleCase(metadata.title.toLowerCase());
+// metadata.title = titleCase(metadata.title.toLowerCase());
 
 let filename = slugify(metadata.title, { lower: true, strict: true }) + ".md";
 // if filename exists, ask what to do
-if (await fileExists(`../src/content/comics/${filename}`)) {
+if (await fileExists(`src/content/comics/${filename}`)) {
     const action = await expand({
         message: "File already exists. What do you want to do?",
         choices: [
@@ -79,6 +79,6 @@ if (await fileExists(`../src/content/comics/${filename}`)) {
 // now, we need to write the frontmatter
 const frontmatter = stringify(metadata);
 
-await writeFile(`../src/content/comics/${filename}`, `---\n${frontmatter}---\n\n`);
+await writeFile(`src/content/comics/${filename}`, `---\n${frontmatter}---\n\n`);
 
-console.log(`Article created at src/articles/${filename}`);
+console.log(`Article created at src/comics/${filename}`);
