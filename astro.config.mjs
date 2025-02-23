@@ -1,10 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
+import tailwindcss from "@tailwindcss/vite";
 
 import sitemap from '@astrojs/sitemap';
 
-import tailwind from '@astrojs/tailwind';
 import { remarkReadingTime } from './remark-reading-time.mjs';
 import { remarkImageCaptions } from './remark-image-captions.mjs';
 
@@ -20,5 +20,8 @@ export default defineConfig({
         },
         remarkPlugins: [remarkReadingTime, remarkImageCaptions]
     },
-    integrations: [mdx(), sitemap(), tailwind()],
+    vite: {
+    	plugins: [tailwindcss()]
+    },
+    integrations: [mdx(), sitemap()],
 });

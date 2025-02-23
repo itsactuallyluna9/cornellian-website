@@ -4,7 +4,7 @@ const today = new Date();
 const commit = execSync('git log -1 --pretty=format:"%s (%h)"', { encoding: 'utf-8' }).trim();
 ---
 
-<footer class="text-center py-8 px-4 text-base-300 dark:text-base-700 bg-gradient-to-b from-base-50 dark:from-base-950 select-none" id="footer">
+<footer class="text-center py-8 px-4 text-base-300 dark:text-base-700 bg-linear-to-b from-base-50 dark:from-base-950 select-none" id="footer">
 	&copy; {today.getFullYear()} The Cornellian. All rights reserved.
 </footer>
 <script>

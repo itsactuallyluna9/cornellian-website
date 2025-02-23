@@ -27,13 +27,13 @@ const posts = (await getCollection('articles')).sort(
 				text-align: center;
 			} */
 			ul li:first-child img {
-				@apply w-full;
+				@reference w-full;
 			}
 			ul li:first-child h4 {
-				@apply md:text-4xl;
+				@reference md:text-4xl;
 			}
 			ul a:hover img {
-				@apply shadow-2xl;
+				@reference shadow-2xl;
 			}
 		</style>
 	</head>

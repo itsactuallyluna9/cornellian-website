@@ -13,11 +13,13 @@ const isActive = href === pathname || href === '/' + subpath?.[0];
 	<slot />
 </a>
 <style>
+	@reference "../styles/global.css";
+	
 	a {
-		@apply inline-block border-b-4 border-purple/0;
+		@apply inline-block border-b-4 border-purple-600/50;
 	}
 
 	a.active {
-		@apply font-semibold border-b-4 border-purple dark:border-purple-light;
+		@apply font-semibold border-b-4 border-purple-600 dark:border-purple-400;
 	}
 </style>
