@@ -4,7 +4,7 @@ author: Rhye Nelson
 pubDate: Nov 4, 2024
 ---
 
-> The opinions expressed in this article are the author's own and do not reflect the view of the Cornellian or of Cornell College.
+> The opinions expressed in this article are the author's own and do not reflect the view of The Cornellian or of Cornell College.
 
 While student protests have occurred on campuses globally since as early as 1507, the United States’ rich history of student activism and protests started with widespread anti war protests around the 1930s and ramping up in the 1960s with the civil rights movement. Whether protesting academic management, dining hall food, the end to violence, or for equality, college and university students have been advocating for themselves backed by the first amendment rights of free speech and right to assembly.
 
