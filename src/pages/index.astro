@@ -9,6 +9,7 @@ import PlaceholderImage from "../images/article-placeholder.png";
 import LogoImage from "../images/logo.png";
 import { getCollection } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
+import Advertisement from '../components/Advertisement.astro';
 
 const posts = (await getCollection('articles')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -36,6 +37,7 @@ const latest_post = posts[0];
 		<main>
 			<!-- center -->
 			<div class="grid justify-center pb-16">
+				<Advertisement />
 				<h1 class="hidden">The Cornellian</h1>
 				<Image src={LogoImage} alt="The Cornellian Logo" class="dark:invert" />
 				<h2 class="text-2xl font-semibold italic text-center">Truth Without Fear. Since the 1800s.</h2>
