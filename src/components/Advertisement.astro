@@ -1,14 +1,16 @@
 ---
 // Shows a random banner ad
 // 722x84
-import { Image } from 'astro:assets';
+import { Image, imageConfig } from 'astro:assets';
 import niko from '../images/ads/niko.png';
-// import ad2 from '../images/ads/2-tinted.png';
+import rene from '../images/ads/know-not.png';
+import luna from '../images/ads/luna.png';
 // import ad3 from '../images/ads/3-tinted.png';
 
 const ads = [
     { src: niko, link: '' },
-    // { src: ad2, link: '/ad2' },
+    { src: rene, link: 'https://www.cornellcollege.edu/ingenuity/index.shtml' },
+    { src: luna, link: 'https://github.com/itsactuallyluna9' },
     // { src: ad3, link: '/ad3' },
 ];
 
@@ -19,7 +21,7 @@ const randomAd = ads[Math.floor(Math.random() * ads.length)];
         <a href={randomAd.link} class="block w-full h-full">
             <Image src={randomAd.src} alt="ad" class="w-full h-full" />
         </a>
-        <div class="absolute right-0 bottom-0 bg-black border-t border-l border-purple-200 p-1 text-sm">
+        <div class="absolute right-0 bottom-0 border-t border-l border-purple-200 p-1 text-sm backdrop-blur-3xl backdrop-grayscale-100">
             <a href="/ads" class="underline text-purple-200">ad</a>
         </div>
     </div>
