@@ -5,6 +5,14 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image } from 'astro:assets';
 import StaffCard from '../components/StaffCard.astro';
+
+import adelaide from '../images/member/adelaide.jpg';
+import james from '../images/member/james.jpg';
+import nella from '../images/member/nella.jpeg';
+import nico from '../images/member/nico.jpg';
+import ren from '../images/member/ren.png';
+import rhye from '../images/member/rhye.jpg';
+import morgan from '../images/member/morgan.jpg';
 ---
 
 <!doctype html>
@@ -19,25 +27,43 @@ import StaffCard from '../components/StaffCard.astro';
             <h2 class="text-center text-2xl font-semibold">Executive Board</h2>
             <h3 class="text-center text-xl">Editors-in-Chief</h3>
             <StaffCard name="Murray Page" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="James Belding" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+            <StaffCard name="James Belding" pronouns="he / him" image={james}>
+               <p>James is a history major who enjoys reading all kinds of books, but recently keeps buying biographies and his bookshelves are running out of space!</p>
+            </StaffCard>
 
             <h3 class="text-center text-xl">Business Manager</h3>
             <StaffCard name="Eliza Carlson" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
 
             <h2 class="text-center text-2xl font-semibold">Comic / Photographers</h2>
-            <StaffCard name="Morgan Dalsing" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+            <StaffCard name="Morgan Dalsing" pronouns="she / they" image={morgan}>
+               <p>We miss you.</p>
+            </StaffCard>
             <StaffCard name="Teresa Mejia" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
 
             <h2 class="text-center text-2xl font-semibold">Staff Writers</h2>
-            <StaffCard name="Ren Solis-Roman" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="Rhye Nelson" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="Jack Gross" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+            <StaffCard name="Ren Solis-Roman" pronouns="she / they" image={ren}>
+               <p>Hi everyone! I have been writing with the Cornellian since my freshman year at Cornell. I write articles about the community, identity, cool stuff Cornell can offer, and silly little opinion pieces. I am majoring in Creative Writing and Philosophy and plan to graduate in December 2025!</p>
+            </StaffCard>
+            <StaffCard name="Rhye" pronouns="they / she" image={rhye}>
+               <p>Rhye is a sophomore studying Creative Writing and Spanish, but they can often be found researching current events, advocating for social justice, and educating others on environmental issues. If not, they are probably in the middle of nowhere, climbing rocks and looking up at the stars.</p>
+            </StaffCard>
+            <StaffCard name="Jack Gross" pronouns="she / they" image="https://placecats.com/200/200">
+               <p>Our favorite jester.</p>
+            </StaffCard>
             <StaffCard name="Clara Biela" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="Adelaide Ries" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+            <StaffCard name="Adelaide" pronouns="she / they" image={adelaide}>
+               <p>Adelaide is currently studying Gender & Sexuality Studies, Sociology, and Creative Writing (despite having immense difficulty with finishing projects).  She is also a strong defender of the Oxford comma.</p>
+            </StaffCard>
+            <StaffCard name="Nella" pronouns="she / her" image={nella}>
+               <p>Interested in International Politics and Human Rights</p>
+            </StaffCard>
+            <StaffCard name="María (Nico) A. Seda Morales" pronouns="she / they" image={nico}>
+               <p>A Puerto Rican who loves to yap about Puerto Rico. I am determined to spread information on campus about current political issues and propose solutions, no matter how controversial. “Cuando la tiranía es ley, la revolución es orden”.</p>
+            </StaffCard>
 
             <h2 class="text-center text-2xl font-semibold">Website</h2>
             <StaffCard name="Luna" pronouns="she / they" image="https://placecats.com/200/200">
-                <p>Luna exists on this earthly realm. This is widely regarded to have been a <em>bad move</em> by the universe.</p>
+                <p>Luna is currently a senior studying Computer Science. She's also responsible for this website. She can often be found working on other projects or managing a massive train network (in Minecraft).</p>
             </StaffCard>
         </main>
         <Footer />
