@@ -16,7 +16,7 @@ const ads = [
 
 const randomAd = ads[Math.floor(Math.random() * ads.length)];
 ---
-<div class="mx-auto w-full font-mono text-white mt-2 mb-8">
+<div class="mx-auto w-full font-mono text-white mt-2 mb-8 not-prose">
     <div class="mx-auto relative border-2 border-gray-500 border-ridge bg-black">
         <a href={randomAd.link} class="block w-full h-full">
             <Image src={randomAd.src} alt="ad" class="w-full h-full" />
