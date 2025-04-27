@@ -45,12 +45,12 @@ const latest = comics[0];
                 <div class="flex justify-center space-x-4">
                     <!-- TODO: add start / end button -->
                     { prev && (
-                        <a href={`/comics/${earliest.id}`} class="bg-purple-light rounded-sm px-2 hover:text-paper text-black transition" aria-label="First Comic">&lt;&lt;</a>
-                        <a href={`/comics/${prev.id}`} class="bg-purple-light rounded-sm px-2 hover:text-paper text-black transition" aria-label="Previous Comic">&lt; Previous</a>
+                        <a href={`/comics/${earliest.id}`} class="bg-purple-light rounded-sm px-2 hover:text-base-700 text-black transition" aria-label="First Comic">&lt;&lt;</a>
+                        <a href={`/comics/${prev.id}`} class="bg-purple-light rounded-sm px-2 hover:text-base-700 text-black transition" aria-label="Previous Comic">&lt; Previous</a>
                     )}
                     { next && (
-                        <a href={`/comics/${next.id}`} class="bg-purple-light rounded-sm px-2 hover:text-paper text-black transition" aria-label="Next Comic">Next &gt;</a>
-                        <a href={`/comics/${latest.id}`} class="bg-purple-light rounded-sm px-2 hover:text-base-950 text-black transition" aria-label="Latest Comic">&gt;&gt;</a>
+                        <a href={`/comics/${next.id}`} class="bg-purple-light rounded-sm px-2 hover:text-base-700 text-black transition" aria-label="Next Comic">Next &gt;</a>
+                        <a href={`/comics/${latest.id}`} class="bg-purple-light rounded-sm px-2 hover:text-base-700 text-black transition" aria-label="Latest Comic">&gt;&gt;</a>
                     )}
                 </div>
             </div>
