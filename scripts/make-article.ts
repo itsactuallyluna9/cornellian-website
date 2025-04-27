@@ -1,6 +1,6 @@
 import { input, expand } from '@inquirer/prompts';
 import { glob } from 'glob';
-import { readFile, writeFile } from 'fs/promises';
+import { mkdir, readFile, writeFile } from 'fs/promises';
 import { parse, stringify } from 'yaml';
 import slugify from 'slugify';
 
@@ -53,11 +53,18 @@ const metadata = {
 	pubDate: await input({ message: "Publication Date", default: await getMostRecentPubDate(), validate: validateDate})
 }
 
+let year = new Date(metadata.pubDate).getFullYear().toString();
+
+if (!(await fileExists(`src/content/articles/${year}`))) {
+    // if the directory doesn't exist, create it
+    await mkdir(`src/content/articles/${year}`, { recursive: true });
+}
+
 // metadata.title = titleCase(metadata.title.toLowerCase());
 
 let filename = slugify(metadata.title, { lower: true, strict: true }) + ".md";
 // if filename exists, ask what to do
-if (await fileExists(`src/content/articles/${filename}`)) {
+if (await fileExists(`src/content/articles/${year}/${filename}`)) {
     const action = await expand({
         message: "File already exists. What do you want to do?",
         choices: [
@@ -78,6 +85,6 @@ if (await fileExists(`src/content/articles/${filename}`)) {
 // now, we need to write the frontmatter
 const frontmatter = stringify(metadata);
 
-await writeFile(`src/content/articles/${filename}`, `---\n${frontmatter}---\n\n`);
+await writeFile(`src/content/articles/${year}/${filename}`, `---\n${frontmatter}---\n\n`);
 
 console.log(`Article created at src/articles/${filename}`);
