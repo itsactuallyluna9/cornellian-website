@@ -3,7 +3,7 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 ---
 
-<header class="bg-paper dark:bg-black m-0 px-4 shadow-lg">
+<header class="bg-paper dark:bg-black m-0 px-4 shadow-lg print:hidden">
 	<nav class="sm:flex sm:items-center sm:justify-between table w-full sm:w-auto">
 		<div class="items-center flex justify-center sm:justify-normal">
 			<h2 class="m-0 text-xl"><a href="/" class="text-black dark:text-base-200 px-2 py-4 font-bold" id="header_title">{SITE_TITLE}</a></h2>

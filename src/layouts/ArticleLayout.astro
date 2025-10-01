@@ -20,11 +20,15 @@ const { title, author, description, pubDate, updatedDate, heroImage, minutesRead
 		<Header />
 		<main>
 			<article>
+				<div class="hidden print:inline">
+					<h1 class="text-3xl">The Cornellian</h1>
+				</div>
+
 				<div>
 					{heroImage && <Picture src={heroImage} alt="" class="rounded-xl drop-shadow-sm aspect-video" loading="eager"/>}
 				</div>
 				<div>
-					<div class="text-center">
+					<div class="text-center print:text-left">
 						<h1 class="text-2xl sm:text-4xl">{title}</h1>
 						<h2 class="text-lg sm:text-2xl">{author}</h2>
 						<div class="text-base text-base-600 dark:text-base-500">
@@ -36,7 +40,7 @@ const { title, author, description, pubDate, updatedDate, heroImage, minutesRead
 									</div>
 								)
 							}
-							<p>{minutesRead}</p>
+							<p class="print:hidden">{minutesRead}</p>
 						</div>
 						<hr class="text-base-100 dark:text-base-900 my-4 sm:my-8" />
 					</div>
