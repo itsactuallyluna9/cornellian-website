@@ -87,4 +87,4 @@ const frontmatter = stringify(metadata);
 
 await writeFile(`src/content/articles/${year}/${filename}`, `---\n${frontmatter}---\n\n`);
 
-console.log(`Article created at src/articles/${filename}`);
+console.log(`Article created at src/articles/${year}/${filename}`);
