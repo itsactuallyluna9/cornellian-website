@@ -13,59 +13,83 @@ import nico from '../images/member/nico.jpg';
 import ren from '../images/member/ren.png';
 import rhye from '../images/member/rhye.jpg';
 import morgan from '../images/member/morgan.jpg';
+import jack from '../images/member/jack.jpg';
+import austin from '../images/member/austin.jpg';
+import tram from '../images/member/tram.jpg';
+import luna from '../images/member/luna.jpg';
+import murray from '../images/member/murray.jpg';
+import clara from '../images/member/clara.jpg';
+import chris from '../images/member/chris.jpg';
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+   <head>
+      <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
-        <main>
-            <h1 class="text-center text-4xl font-bold">The Cornellian Staff</h1>
-            <h2 class="text-center text-2xl font-semibold">Executive Board</h2>
-            <h3 class="text-center text-xl">Editors-in-Chief</h3>
-            <StaffCard name="Murray Page" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="James Belding" pronouns="he / him" image={james}>
-               <p>James is a history major who enjoys reading all kinds of books, but recently keeps buying biographies and his bookshelves are running out of space!</p>
-            </StaffCard>
+      <Header />
+      <main>
+         <h1 class="text-center text-4xl font-bold">The Cornellian Staff</h1>
+         <h2 class="text-center text-2xl font-semibold">Executive Board</h2>
+         <h3 class="text-center text-xl">Editors-in-Chief</h3>
+         <StaffCard name="Murray Page" pronouns="she / her" image={murray}>
+            <p>Murray is an editor-in-chief for the Cornellian, a tour guide manager and in cross country and track. When she’s not running, at a meeting/class, on a tour, or doing homework, you can find her baking, reading, enjoying the outdoors or watching stuff with her teammates!</p>
+         </StaffCard>
+         <StaffCard name="James Belding" pronouns="he / him" image={james}>
+            <p>James is a history major who enjoys reading all kinds of books, but recently keeps buying biographies and his bookshelves are running out of space!</p>
+         </StaffCard>
+         
+         <h3 class="text-center text-xl">Social Media</h3>
+         <StaffCard name="Clara" pronouns="she / her" image={clara}>
+            <p>Clara is studying International Relations and Russian. When she's not writing for The Cornellian, she's usually in Armstrong Hall doing something for the current theatre production.</p>
+         </StaffCard>
+         
+         <h3 class="text-center text-xl">Community Outreach</h3>
+         <StaffCard name="Jack Gross" pronouns="she / they" image={jack}>
+            <p>Jack is the Treasurer of Engineering club, President of Frisbee club, on the Cornellian Eboard, and a chronically busy individual. </p>
+         </StaffCard>
+         <h3 class="text-center text-xl">Editor</h3>
+         <StaffCard name="Rhye" pronouns="they / she" image={rhye}>
+            <p>Rhye is a sophomore studying Creative Writing and Spanish, but they can often be found researching current events, advocating for social justice, and educating others on environmental issues. If not, they are probably in the middle of nowhere, climbing rocks and looking up at the stars.</p>
+         </StaffCard>
+         
+         <h2 class="text-center text-2xl font-semibold">Comic / Photographers</h2>
+         <StaffCard name="Morgan Dalsing" pronouns="she / they" image={morgan}>
+            <p>We miss you.</p>
+         </StaffCard>
+         <StaffCard name="Despia" pronouns="she / her" image="https://placecats.com/200/200"></StaffCard>
 
-            <h3 class="text-center text-xl">Business Manager</h3>
-            <StaffCard name="Eliza Carlson" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+         <h2 class="text-center text-2xl font-semibold">Staff Writers</h2>
+         <StaffCard name="Ren Solis-Roman" pronouns="she / they" image={ren}>
+            <p>Hi everyone! I have been writing with the Cornellian since my freshman year at Cornell. I write articles about the community, identity, cool stuff Cornell can offer, and silly little opinion pieces. I am majoring in Creative Writing and Philosophy and plan to graduate in December 2025!</p>
+         </StaffCard>
+         <StaffCard name="Adelaide" pronouns="she / they" image={adelaide}>
+            <p>Adelaide is currently studying Gender & Sexuality Studies, Sociology, and Creative Writing (despite having immense difficulty with finishing projects).  She is also a strong defender of the Oxford comma.</p>
+         </StaffCard>
+         <StaffCard name="Nella" pronouns="she / her" image={nella}>
+            <p>Interested in International Politics and Human Rights</p>
+         </StaffCard>
+         <StaffCard name="Austin Palm" pronouns="she / her" image={austin}>
+            <p>The Cornellian's one and only writer focused on keeping our esports teams visible!</p>
+         </StaffCard>
+         <StaffCard name="Tram Nguyen" pronouns="she / her" image={tram}>
+            <p>Tram's writing has been varied from speeches to essays. But she has always enjoy writing around social justice, storytelling and most likely random niche topics. Her desire for advocacy drives a lot of her works in the spaces she is in. And if it is not obvious enough...she loves Gravity Falls.</p>
+         </StaffCard>
 
-            <h2 class="text-center text-2xl font-semibold">Comic / Photographers</h2>
-            <StaffCard name="Morgan Dalsing" pronouns="she / they" image={morgan}>
-               <p>We miss you.</p>
-            </StaffCard>
-            <StaffCard name="Teresa Mejia" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
+         <StaffCard name="Chris" pronouns="he / him" image={chris}>
+            <p>I like comfortable or baggy clothes. I like to draw and I like puzzles. Dogs are better than cats. If you disagree, that's okay, because sometimes people have wrong opinions and we should help them get better ones.</p>
+         </StaffCard>
+         <StaffCard name="María (Nico) A. Seda Morales" pronouns="she / they" image={nico}>
+            <p>A Puerto Rican who loves to yap about Puerto Rico. I am determined to spread information on campus about current political issues and propose solutions, no matter how controversial. “Cuando la tiranía es ley, la revolución es orden”.</p>
+         </StaffCard>
 
-            <h2 class="text-center text-2xl font-semibold">Staff Writers</h2>
-            <StaffCard name="Ren Solis-Roman" pronouns="she / they" image={ren}>
-               <p>Hi everyone! I have been writing with the Cornellian since my freshman year at Cornell. I write articles about the community, identity, cool stuff Cornell can offer, and silly little opinion pieces. I am majoring in Creative Writing and Philosophy and plan to graduate in December 2025!</p>
-            </StaffCard>
-            <StaffCard name="Rhye" pronouns="they / she" image={rhye}>
-               <p>Rhye is a sophomore studying Creative Writing and Spanish, but they can often be found researching current events, advocating for social justice, and educating others on environmental issues. If not, they are probably in the middle of nowhere, climbing rocks and looking up at the stars.</p>
-            </StaffCard>
-            <StaffCard name="Jack Gross" pronouns="she / they" image="https://placecats.com/200/200">
-               <p>Our favorite jester.</p>
-            </StaffCard>
-            <StaffCard name="Clara Biela" pronouns="?" image="https://placecats.com/200/200"></StaffCard>
-            <StaffCard name="Adelaide" pronouns="she / they" image={adelaide}>
-               <p>Adelaide is currently studying Gender & Sexuality Studies, Sociology, and Creative Writing (despite having immense difficulty with finishing projects).  She is also a strong defender of the Oxford comma.</p>
-            </StaffCard>
-            <StaffCard name="Nella" pronouns="she / her" image={nella}>
-               <p>Interested in International Politics and Human Rights</p>
-            </StaffCard>
-            <StaffCard name="María (Nico) A. Seda Morales" pronouns="she / they" image={nico}>
-               <p>A Puerto Rican who loves to yap about Puerto Rico. I am determined to spread information on campus about current political issues and propose solutions, no matter how controversial. “Cuando la tiranía es ley, la revolución es orden”.</p>
-            </StaffCard>
-
-            <h2 class="text-center text-2xl font-semibold">Website</h2>
-            <StaffCard name="Luna" pronouns="she / they" image="https://placecats.com/200/200">
-                <p>Luna is currently a senior studying Computer Science. She's also responsible for this website. She can often be found working on other projects or managing a massive train network (in Minecraft).</p>
-            </StaffCard>
-        </main>
-        <Footer />
-    </body>
+         <h2 class="text-center text-2xl font-semibold">Website</h2>
+         <StaffCard name="Luna" pronouns="she / they" image={luna}>
+               <p>Luna is currently a senior studying Computer Science. She's also responsible for this website, and like 
+               <a href="https://krnl-radio.github.io">3 other websites</a> <a href="https://cornellcollegecomputingclub.github.io">on this campus</a>. She can often be found <a href="https://github.com/itsactuallyluna9">working on other projects</a> or managing a massive train network (in Minecraft).</p>
+         </StaffCard>
+      </main>
+      <Footer />
+   </body>
 </html>
