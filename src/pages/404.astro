@@ -6,7 +6,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image } from 'astro:assets';
 
 import PlaceholderImage from "../images/comics/tiny-stupid-hands.png";
-import Advertisement from '../components/Advertisement.astro';
 ---
 
 <!doctype html>
@@ -24,7 +23,6 @@ import Advertisement from '../components/Advertisement.astro';
                 <Image src={PlaceholderImage} alt="404" class="dark:invert" />
                 <p class="italic text-xs">Above: replace with an image of a squirrel looking really confused.</p>
                 <p class="text-center">Sorry, the page you are looking for does not exist.</p>
-				<Advertisement />
 			</div>
 		</main>
 		<Footer />

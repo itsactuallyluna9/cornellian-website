@@ -1,0 +1,51 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title="Credits" description="Your description here" />
+	</head>
+
+	<body>
+		<Header />
+		<main>
+			<article>
+				<div>
+					<div class="text-center">
+						<h1 class="text-2xl sm:text-4xl">Credits</h1>
+						<hr class="text-base-100 dark:text-base-900 my-4 sm:my-8" />
+					</div>
+					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify">
+						<p>
+                            This website will not have been possible without the help and support of a few amazing people:
+                        </p>
+                        <ul>
+                            <li><strong>Luna</strong> - For designing and developing the website.</li>
+                            <li><strong>James</strong> - For providing valuable feedback and suggestions to improve the website's design and functionality.</li>
+                            <li><strong>Eliza</strong> - For helping with content creation and proofreading.</li>
+                            <li><strong>Murray</strong> - For assisting with testing and debugging the website.</li>
+                            <li><strong>Morgan</strong> - For assisting with testing and debugging the website.</li>
+                            <li><strong>Despia</strong> - For assisting with testing and debugging the website.</li>
+                        </ul>
+                        <p>
+                            In additon, this website uses the following open-source libraries and resources:
+                        </p>
+                        <ul>
+                            <li><strong>Astro</strong> - A modern static site generator.</li>
+                            <li><strong>Tailwind CSS</strong> - A utility-first CSS framework for rapid UI development.</li>
+                            <li><strong>Google Fonts</strong> - For beautiful typography.</li>
+                        </ul>
+                        <p>
+                            Thank you for visiting!
+                        </p>
+                        <span class="text-cyan-600 dark:text-cyan-400">~Luna</span>
+					</div>
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -27,7 +27,7 @@ const { title, author, description, pubDate, updatedDate, heroImage, heroImageCa
 				<div>
 					{heroImage && (
 						<figure>
-							<Picture src={heroImage} alt={heroImageCaption || ""} class="rounded-xl drop-shadow-sm aspect-video" loading="eager"/>
+							<Picture src={heroImage} alt={heroImageCaption || ""} class="rounded-xl drop-shadow-sm aspect-video object-cover" loading="eager"/>
 							{(heroImageCaption || heroImageCredit) && (
 								<figcaption class="text-sm text-base-600 dark:text-base-500 mt-2 text-center italic">
 									{heroImageCaption}
@@ -55,7 +55,7 @@ const { title, author, description, pubDate, updatedDate, heroImage, heroImageCa
 						</div>
 						<hr class="text-base-100 dark:text-base-900 my-4 sm:my-8" />
 					</div>
-					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify">
+					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify prose-img:rounded-xl prose-figcaption:text-center">
 						<slot />
 					</div>
 				</div>
