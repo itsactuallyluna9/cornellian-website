@@ -8,7 +8,7 @@ import { Picture } from 'astro:assets';
 
 type Props = CollectionEntry<'articles'>['data'];
 
-const { title, author, description, pubDate, updatedDate, heroImage, minutesRead } = Astro.props;
+const { title, author, description, pubDate, updatedDate, heroImage, heroImageCaption, heroImageCredit, minutesRead } = Astro.props;
 ---
 
 <html lang="en">
@@ -25,7 +25,18 @@ const { title, author, description, pubDate, updatedDate, heroImage, minutesRead
 				</div>
 
 				<div>
-					{heroImage && <Picture src={heroImage} alt="" class="rounded-xl drop-shadow-sm aspect-video" loading="eager"/>}
+					{heroImage && (
+						<figure>
+							<Picture src={heroImage} alt={heroImageCaption || ""} class="rounded-xl drop-shadow-sm aspect-video" loading="eager"/>
+							{(heroImageCaption || heroImageCredit) && (
+								<figcaption class="text-sm text-base-600 dark:text-base-500 mt-2 text-center italic">
+									{heroImageCaption}
+									{heroImageCaption && heroImageCredit && " | "}
+									{heroImageCredit && <span class="font-semibold">Credit: {heroImageCredit}</span>}
+								</figcaption>
+							)}
+						</figure>
+					)}
 				</div>
 				<div>
 					<div class="text-center print:text-left">
