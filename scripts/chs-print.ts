@@ -36,9 +36,9 @@ async function ensureOutputDir() {
         await page.goto(BASE_URL, { waitUntil: 'networkidle2', timeout: NAV_TIMEOUT });
 
         // Collect article links found under /articles
-        const links: string[] = await page.$$eval('a[href]', (anchors) =>
-            Array.from(anchors)
-                .map((a) => a.href)
+        const links: string[] = await page.$$eval('a[href]', (anchors: Element[]) =>
+            anchors
+                .map((a) => (a as HTMLAnchorElement).href)
                 .filter((h) => {
                     try {
                         const u = new URL(h);
@@ -68,7 +68,7 @@ async function ensureOutputDir() {
                 // prefer a page title or H1 for filename
                 let title = await p.title();
                 if (!title || title.trim().length === 0) {
-                    const h1 = await p.$eval('h1', (el) => el.textContent || '').catch(() => '');
+                    const h1 = await p.$eval('h1', (el: Element) => el.textContent || '').catch(() => '');
                     title = h1 || `article-${i}`;
                 }
 
