@@ -2,10 +2,16 @@
 title: All Childish Things Review
 author: Clara Biela
 pubDate: Oct 15, 2025
+heroImage: "../../../images/articles/2025/all-childish-things-1.jpg"
+heroImageCaption: "The Cast of All Childish Things"
+heroImageCredit: "Drake Klemme"
+
 ---
 Cornell College Theater and Dance's first production of the year, *All Childish Things*, was a witty yet dramatic play that kept the audience laughing from the moment the curtain opened until curtain call.
 
 The plot followed three best friends, Dave (Nick Streng '27), Max (Gabe LaFleur '26), and Carter (Jack Tressel '27), who all happen to be huge Star Wars fans, as well as Carter's girlfriend Kenda (Sirius Barnett '28), who hates the franchise.They plotted to stage a heist on the company that makes Star Wars collectables and then exchange them with Kendra’s confidential correspondent for two million dollars. Act one developed the relationships between characters in the lead up to the big event. Streng and LaFleur did a great job of having opposing mannerisms, creating a nice balanced dynamic between the two of them. When one was anxious and frantic, the other stayed confident in their chances to pull off the heist. When one was angry and loud the other brought a quiet, calming presence to the stage. When Carter and Kendra came on the scene, there was a palpable tension between them. The actors made the audience believe that Max and Dave hate Kendra and that Carter is the middle man in it all. Barnett did a great job at catering her character choices depending on who she was interacting with, being snarky with the guys, but more subdued and sweet with Tressel. By the end of act one, the actors made the audience feel a sense of camaraderie amongst the characters despite the varying relationships taking place.
+
+![The Cornellian Logo {caption=The Cast of All Childish Things} {credit=Drake Klemme}](../../../images/articles/2025/all-childish-things-2.jpg)
 
 Act two took quite a turn, as the different characters came back from the failed heist. The more chaotic the scene, the more realistic it seemed and the more invested audience members became. As characters yelled over each other, trying to figure out what happened, the audience felt the high stress of a real argument. This all came to a head when Carter walked in after having been shot. This lead to the friends calling Kendra’s contact despite failing the mission. They learned Kendra has called mob boss, Alfie DiMartino (Bethie Geraci ‘27), who happened to be a huge Star Wars fan. When she came onto the scene, the audience found out more about her past relationship with Kendra and how she will only help Carter get the help he needs if they give her the Boba Fett action figure with a removable helmet (a myth in the Star Wars world that Dave had managed to steal despite all else). Geraci nicely balanced the character’s role as the threatening mob boss and child-like superfan. Geraci raised the stakes of the situation by having a controlling voice in the scene while, at the same time, providing comedic relief for the audience in these tense moments of the show. The show ends with every character finding a better place for themselves in the world. Dave goes to go work for Alfie DiMartino, Carter and Kendra plan on getting married, and Max plans to commit himself more to his daughter.
 

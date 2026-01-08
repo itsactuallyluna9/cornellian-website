@@ -2,6 +2,9 @@
 title: Solidarity Will Reign
 author: Rhye Nelson
 pubDate: Nov 19, 2025
+heroImage: "../../../images/articles/2025/solidarity-will-reign-no-kings-rhye.jpeg"
+heroImageCaption: "No Kings Protesters - 10/18/25, Bartlett, IL"
+heroImageCredit: "Rhye Nelson"
 ---
 On October 18, 2025, the second global No Kings protest took place at over 2,500 locations around the United States and the world. Millions of people across the country gathered to protest the current Trump administration, the increase of austerity, and domestic fascism. Organizers estimate that roughly 7 million people showed up to the Saturday rallies. While massive protest marches and rallies took place in some of the biggest cities in the United States, thousands of small towns held their own protests making this the largest protest in US history. Out of the millions of protesters that showed up, all protests were peaceful and almost no arrests were made across the entire country.
 
