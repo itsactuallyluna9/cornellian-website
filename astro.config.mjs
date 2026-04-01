@@ -21,6 +21,7 @@ export default defineConfig({
         remarkPlugins: [remarkReadingTime, remarkImageCaptions]
     },
     vite: {
+    	// @ts-expect-error type mismatch between tailwindcss/vite and astro's vite
     	plugins: [tailwindcss()]
     },
     integrations: [mdx(), sitemap()],
