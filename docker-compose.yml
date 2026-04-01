@@ -1,0 +1,17 @@
+services:
+  app:
+    image: cornellian-website:latest
+    restart: unless-stopped
+    container_name: cornellian-website
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./keys:/keys:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

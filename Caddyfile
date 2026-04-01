@@ -1,0 +1,14 @@
+{
+    email thecornellian@cornellcollege.edu
+}
+
+thecornellian.org {
+    root * /srv
+    file_server
+    encode gzip
+
+    # tls /keys/fullchain.pem /keys/private.pem
+
+    # force binding on all IPv4 interfaces inside Docker
+    bind 0.0.0.0
+}
