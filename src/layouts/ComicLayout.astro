@@ -3,6 +3,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Advertisement from '../components/Advertisement.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'comics'>['data'];
@@ -30,6 +31,7 @@ const latest = comics[0];
 	<body>
 		<Header />
 		<main>
+            <Advertisement />
             <div class="text-center items-center p-4 bg-[#fff] border-purple dark:border-purple-light border-2 rounded-2xl">
                 <div class="mb-8">
                     <h1 class="text-2xl sm:text-3xl text-black">{title}</h1>

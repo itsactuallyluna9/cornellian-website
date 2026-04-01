@@ -228,9 +228,25 @@ main {
   .astro-code span {
     color: var(--shiki-dark) !important;
     background-color: var(--shiki-dark-bg) !important;
-    /* Optional, if you also want font styles */
     font-style: var(--shiki-dark-font-style) !important;
     font-weight: var(--shiki-dark-font-weight) !important;
     text-decoration: var(--shiki-dark-text-decoration) !important;
   }
+}
+
+/* April Fools: swap purple → orange */
+.april-fools {
+  --color-purple-50: var(--color-orange-50);
+  --color-purple-100: var(--color-orange-100);
+  --color-purple-150: var(--color-orange-150);
+  --color-purple-200: var(--color-orange-200);
+  --color-purple-300: var(--color-orange-300);
+  --color-purple-400: var(--color-orange-400);
+  --color-purple-500: var(--color-orange-500);
+  --color-purple-600: var(--color-orange-600);
+  --color-purple-700: var(--color-orange-700);
+  --color-purple-800: var(--color-orange-800);
+  --color-purple-850: var(--color-orange-850);
+  --color-purple-900: var(--color-orange-900);
+  --color-purple-950: var(--color-orange-950);
 }

@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Advertisement from '../components/Advertisement.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { Image, Picture } from 'astro:assets';
 
@@ -38,8 +39,9 @@ const latest_post = posts[0];
 			<div class="grid justify-center pb-16">
 				<h1 class="hidden">The Cornellian</h1>
 				<Image src={LogoImage} alt="The Cornellian Logo" class="dark:invert" />
-				<h2 class="text-2xl font-semibold italic text-center">Truth Without Fear. Since the 1800s.</h2>
+				<h2 class="text-2xl font-semibold italic text-center" id="subtitle">Truth Without Fear. Since the 1800s.</h2>
 			</div>
+			<Advertisement />
 			<h2 class="text-2xl font-semibold text-center">Latest Article</h2>
 			<a href={`/articles/${latest_post.id}/`} class="relative inline-block latest-article">
 				<Picture width={688} height={387} src={latest_post.data.heroImage || PlaceholderImage} alt="" class="w-full h-auto transition rounded-xl mb-2 aspect-video dark:brightness-90" loading="eager" />
@@ -59,5 +61,19 @@ const latest_post = posts[0];
 			<p>Our meetings are held every Wednesday (excluding the fourth week) at 7:00 p.m. in the MLK Room located within the Thomas Commons.</p>
 		</main>
 		<Footer />
+		<script>
+			function isAprilFools() {
+				var d = new Date();
+				return d.getMonth() === 3 && d.getDate() === 1;
+			}
+			function swapSubtitle() {
+				if (isAprilFools()) {
+					const subtitleEl = document.getElementById('subtitle');
+					if (subtitleEl) subtitleEl.textContent = 'Truth With Fear. Since the 1800s.';
+				}
+			}
+			swapSubtitle();
+			document.addEventListener('astro:page-load', swapSubtitle);
+		</script>
 	</body>
 </html>

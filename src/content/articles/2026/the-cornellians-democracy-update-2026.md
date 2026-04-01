@@ -1,0 +1,6 @@
+---
+title: The Cornellian's Democracy Update 2026
+author: Reporter Used to Report, Murder Pager, Jam Bell
+pubDate: Apr 1, 2026
+---
+We are happy to present an update on the democratic status of The Cornellian dictatorship. After surviving one dictatorship, and ousting a member of the new regime last year, we now have some new changes to the “democracy” of The Cornellian. We saw the election of the newest member of the questionable leadership for The Cornellian in Rhye Nelson, who members hoped would bring a semblance of sanity to the regime in charge. Instead, it seems that Nelson has inherited the dictatorial designs of her predecessor Eliza Carlson and intends to rule with the chaos and tyranny of last year’s dictatorship. They repeatedly stated that they were, “doing a coup.” There is no public evidence of their coup so far. Murray Page proudly declared her intent to continue as one of the dictators of The Cornellian and carry on the corrupt traditions of The Cornellian’s tyrants. On a potentially positive note, one of the dictators, James Belding has been ousted under suspicious circumstances and is expected to be removed via supposed graduation at the end of the year. This continues the regime’s attempts to create a facade of normalcy to defend their supposed democratic government.

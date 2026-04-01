@@ -3,17 +3,22 @@ import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Advertisement from '../components/Advertisement.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import { Picture } from 'astro:assets';
 
 type Props = CollectionEntry<'articles'>['data'];
 
 const { title, author, description, pubDate, updatedDate, heroImage, heroImageCaption, heroImageCredit, minutesRead } = Astro.props;
+
+const d = new Date(pubDate);
+const isAprilFoolsArticle = d.getMonth() === 3 && d.getDate() === 1;
 ---
 
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		{isAprilFoolsArticle && <script is:inline>document.documentElement.classList.add('april-fools');</script>}
 	</head>
 
 	<body>
@@ -55,6 +60,7 @@ const { title, author, description, pubDate, updatedDate, heroImage, heroImageCa
 						</div>
 						<hr class="text-base-100 dark:text-base-900 my-4 sm:my-8" />
 					</div>
+					<Advertisement />
 					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify prose-img:rounded-xl prose-figcaption:text-center">
 						<slot />
 					</div>
@@ -64,3 +70,12 @@ const { title, author, description, pubDate, updatedDate, heroImage, heroImageCa
 		<Footer />
 	</body>
 </html>
+{isAprilFoolsArticle && <script is:inline>
+	document.addEventListener('astro:page-load', function() {
+		document.documentElement.classList.add('april-fools');
+		var titleEl = document.getElementById('header_title');
+		if (titleEl) titleEl.textContent = 'The Cornhellian';
+		var subtitleEl = document.getElementById('subtitle');
+		if (subtitleEl) subtitleEl.textContent = 'Truth With Fear. Since the 1800s.';
+	});
+</script>}

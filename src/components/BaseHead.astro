@@ -1,6 +1,4 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 
@@ -49,3 +47,15 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 
 <!-- Fancy Page Transitions -->
 <ClientRouter />
+
+<script is:inline>
+	function isAprilFools() {
+		var d = new Date();
+		return d.getMonth() === 3 && d.getDate() === 1;
+	}
+	function activateAprilFools() {
+		if (isAprilFools()) document.documentElement.classList.add('april-fools');
+	}
+	activateAprilFools();
+	document.addEventListener('astro:page-load', activateAprilFools);
+</script>

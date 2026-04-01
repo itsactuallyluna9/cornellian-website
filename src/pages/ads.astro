@@ -1,13 +1,26 @@
 ---
-import Advertisement from "../components/Advertisement.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import { Image } from 'astro:assets';
+import niko from '../images/ads/niko.png';
+import knowNot from '../images/ads/know-not.png';
+import hotSquirrels from '../images/ads/hot-squirrels.png';
+import pumpkin from '../images/ads/pumpkin.png';
+import lightingDesign from '../images/ads/lighting_design_1.png';
+
+const allAds = [
+    { src: niko, link: '', label: 'Niko' },
+    { src: knowNot, link: 'https://www.cornellcollege.edu/ingenuity/index.shtml', label: 'Know Not' },
+    { src: hotSquirrels, link: '', label: 'Hot Squirrels' },
+    { src: pumpkin, link: '', label: 'Pumpkin' },
+    { src: lightingDesign, link: 'https://selfservice.cornellcollege.edu/PowerCampusSelfService/Search/Section/Share?&keywords=Lighting%20Design&session=BLOCK8&department=THE', label: 'Lighting Design' },
+];
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title="Advertisements" description="Your description here" />
+		<BaseHead title="Advertisements" description="All the fake ads from The Cornhellian's April Fools issue." />
 	</head>
 
 	<body>
@@ -20,11 +33,26 @@ import Header from "../components/Header.astro";
 						<hr class="text-base-100 dark:text-base-900 my-4 sm:my-8" />
 					</div>
 					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify">
-						<p>
-                            Placeholder!
-                        </p>
-                        <Advertisement />
-                        
+						<p>If you're seeing ads on our articles, don't worry — we haven't sold out (yet). All advertisements on this site are 100% fake and only appear on April 1st. Consider them our little April Fools tradition.</p>
+						<p>For your convenience, here's the complete collection of our finest counterfeit sponsorships:</p>
+					</div>
+					<div class="space-y-8 mt-8">
+						{allAds.map((ad) => (
+							<div class="mx-auto w-full font-mono text-white not-prose">
+								<div class="mx-auto relative border-2 border-gray-500 border-ridge bg-black">
+									<a href={ad.link} class="block w-full h-full">
+										<Image src={ad.src} alt={ad.label} class="w-full h-full" />
+									</a>
+									<div class="absolute right-0 bottom-0 border-t border-l border-purple-200 p-1 text-sm backdrop-blur-3xl backdrop-grayscale-100">
+										<span class="text-purple-200">ad</span>
+									</div>
+								</div>
+								<p class="text-sm text-center text-base-500 mt-1">{ad.label}</p>
+							</div>
+						))}
+					</div>
+					<div class="prose dark:prose-invert prose-paper [&>p]:indent-8 text-justify mt-8">
+						<p>Want to submit your own? Send us a 728×90 banner image and we'll throw it in the rotation for next year's April Fools issue. No, we won't fact-check it. Yes, it can be about whatever you want.</p>
 					</div>
 				</div>
 			</article>
